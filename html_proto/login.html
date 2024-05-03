@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discgolf trainer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <span class="navbar-toggler-icon mb-2 mb-lg-0"></span>
+        <a class="navbar-brand me-auto mb-2 mb-lg-0" href="#">Login</a>
+    </div>
+</nav>
+<!-- //NAVBAR -->
+
+<!-- Login view -->
+<div class="container mt-3">
+    <div class="col align-items-center only-third">
+        <div class="container mt-5">
+            <div class="row align-self-center d-none d-md-block">
+                <h1 class="title-main">DG Trainer</h1>
+            </div>
+            <div class="row align-self-center d-none d-md-block">
+                <h5 class="title-sub">Ultimate disc golf fitness trainer</h5>
+            </div>
+        </div>
+        <div class="row align-self-center mt-3">
+            <div class="container">
+                <div class="white-box">
+                    <div class="row d-block d-md-none mb-1">
+                        <h3>DG Trainer</h3>
+                    </div>
+                    <div class="row d-block d-md-none mb-3">
+                        Ultimate disc golf fitness trainer
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputLoginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="InputLoginEmail" placeholder="Email address">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>
+                        <div class="row mt-5">
+                            <button type="button" class="btn green-btn" onclick="redirectToNewPage('profile/profile_history.html')">LOGIN</button>
+                        </div>
+                        <div class="row g-0 mt-4 ">
+                            <div class="col-4">
+                                <div class="dotted-line"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="textbox">FORGOT PASSWORD</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="dotted-line flip-horizontal"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //Login view -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>
+        function redirectToNewPage(pageUrl) {
+            // Redirect to the new page
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
